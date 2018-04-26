@@ -1,5 +1,11 @@
 package com.karthi.springbootstarter.topic;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+//@XmlRootElement
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Topic {
 	
 	private String id;
@@ -35,6 +41,12 @@ public class Topic {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
 
+
+	@Override
+	public String toString() {
+		return "Topic [id=" + id + ", name=" + name + ", description=" + description + "]";
+	}
+	
+	
 }

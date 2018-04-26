@@ -4,7 +4,7 @@ Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: karth
 Implementation-Vendor-Id: com.karthi.SpringBootQuickStart
 Build-Jdk: 1.8.0_161
-Implementation-URL: http://projects.spring.io/spring-boot/course-api/
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/course-api
 Created-By: Maven Integration for Eclipse
-Implementation-Vendor: Pivotal Software, Inc.
 
